@@ -47,8 +47,13 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
+                <div class="col-12 col-sm-3 align-self-center">
                     <img src="img/logo.png" class="img-fluid">
+
+                    
+                </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                    <button class="btn btn-warning btn-block">Reserve Table</button>
                 </div>
                 
             </div>
@@ -62,10 +67,14 @@
             </div>
             <div class="col col-sm order-sm-first col-md">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self center"
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
                     src="img/uthappizza.png" alt="uthapizza">
                     <div class="media-body">
-                        <h2 class="mt-0">Uthappizza</h2>
+                        <h2 class="mt-0">Uthappizza
+                            <span class="badge badge-danger">HOT</span>
+                        <span class="badge badge-pill badge-secondary">$4.99</span>
+                        </h2>
+                        
                 <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
 
 
@@ -81,8 +90,15 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm  col-md">
-                <h2>Weekend Grand Buffet</h2>
+                <div class="media">
+                    <div class="media-body">
+                <h2>Weekend Grand Buffet
+                    <span class="badge badge-danger">NEW</span>
+                </h2>
                 <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+            </div>
+                <img class="d-flex ml-3 img-thumbnail align-self-center" src="img/buffet.png">
+            </div>
             </div>
         </div>
 
@@ -92,7 +108,7 @@
             </div>
             <div class="col col-sm order-sm-first col-md">
                 <div class="media">
-                    <img class=" d-flex mr-3 img-thumbnail align self-center"
+                    <img class=" d-flex mr-3 img-thumbnail align-self-center"
                          src="img/alberto.png" alt="alberto">
 
                          <div class="media-body">
@@ -105,6 +121,62 @@
                 
             </div>
         </div>
+        <div class="row  row-content align-items-center justify-content-center">
+            <div class=" col-sm-8 offset-sm-2">
+                <div class="card">
+                <h3 class="card-header bg-warning text-white">
+                    Reserve A Table
+                </h3>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group row">
+                            <label for="number" class="col-12 col-sm-2 col-form-label">Number Of Guests</label>
+                            <div class="col-sm-10">
+                                <div class="form-check-inline">
+                                    <input type="radio" class="form-check-input" name="gradio"> 1
+                                </div>
+                                <div class="form-check-inline">
+                                    <input type="radio" class="form-check-input" name="gradio"> 2
+                                </div>
+                                <div class="form-check-inline">
+                                    <input type="radio" class="form-check-input" name="gradio"> 3
+                                </div>
+                                <div class="form-check-inline">
+                                    <input type="radio" class="form-check-input" name="gradio"> 4
+                                </div>
+                                <div class="form-check-inline">
+                                    <input type="radio" class="form-check-input" name="gradio"> 5
+                                </div>
+                                <div class="form-check-inline">
+                                    <input type="radio" class="form-check-input" name="gradio"> 6
+                                </div>
+                            </div>
+                        </div>
+                      
+                        <div class="form-group row">
+                            <lable for="dandt" class="col-12 col-sm-2 col-form-label">Date and Time</lable>
+                            
+                                <div class="col-sm-4">
+                                    <input type="text" id="dandt" placeholder="Date" class="form-control">
+                                </div>
+                                <div class="col-sm-4">
+                                    <input type="text" id="dandt" placeholder="Time" class="form-control">
+                                </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="offset-md-2 col-md-12">
+                                <button class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <button class="btn btn-primary" type="submit">Reserve</button>
+                            </div>
+                        </div>
+    
+                    </form>
+                </div>
+            </div>
+            </div>
+
+        </div>
+        
     </div>
 
     <footer class="footer" >
